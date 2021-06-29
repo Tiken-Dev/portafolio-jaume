@@ -1,0 +1,53 @@
+.hero {
+  padding-block-start: 16px;
+}
+
+.hero-description {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.hero-image img {
+  max-inline-size: 100%;
+  block-size: auto;
+}
+
+.hero .hero-image {
+  text-align: center;
+}
+
+.hero h1 {
+  font: var(--headline3);
+  margin: 0;
+}
+
+/* .hero h1 span:first-child { */
+.hero h1 span:nth-of-type(1) {
+  font: var(--headline5);
+  display: block;
+}
+
+.hero {
+  padding-block-end: 24px;
+}
+
+@media screen and (min-width: 768px) {
+  .hero {
+    display: flex;
+    gap: 32px;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+  }
+
+  .hero-description {
+    max-inline-size: 450px;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .hero-image img {
+    inline-size: 500px;
+    block-size: 504px;
+  }
+}

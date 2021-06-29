@@ -1,0 +1,92 @@
+.project-section {
+  font: var(--project-text);
+}
+
+.project-section p {
+  margin-block-end: 24px;
+}
+
+.project-section h5 {
+  margin-block-start: 0;
+  margin-block-end: 24px;
+}
+
+.project-section__container {
+  margin-block: 40px;
+  text-align: center;
+}
+
+.project-section__container img {
+  display: block;
+  margin: auto;
+  max-inline-size: 100%;
+}
+
+.project-section__data-container h5 {
+  background: #310A90;
+  box-shadow: -4px 4px 0px #FFFFFF;
+  color: var(--white);
+  padding: 4px 8px;
+  inline-size: 286px;
+  font: var(--headline5);
+  margin-block-start: 44px;
+  text-align: start;
+  inline-size: fit-content;
+}
+
+.project-section__data-container p {
+  font: var(--body1);
+  margin-block: 16px;
+  text-align: start;
+}
+
+.project-section__btn-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.project-section__btn-container .button {
+  margin-block-end: 16px;
+}
+
+@media screen and (min-width: 768px) {
+
+  .project-section {
+    margin-block: 80px;
+  }
+  .project-section__container {
+    display: flex;
+    gap: 32px;
+    align-items: center;
+  }
+
+  .ipad-container {
+    display: flex;
+    flex-direction: row-reverse;
+  }
+
+  .project-section__container picture {
+    order: 2;
+    flex: 1;
+    text-align: end;
+  }
+
+  .project-section__container img {
+    order: 2;
+    text-align: end;
+  }
+
+  .project-section__data-container {
+    inline-size: 449px;
+  }
+  .project-section__btn-container {
+    display: flex;
+    flex-direction: row;
+    gap: 16px;
+  }
+
+  .button {
+    display: inline-block;
+    inline-size: 138px;
+  }
+}

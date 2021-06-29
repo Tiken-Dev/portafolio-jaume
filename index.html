@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portafolio de Jaume</title>
+  <link rel="stylesheet" href="./css/index.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Oxygen:wght@300;400;700&display=swap" rel="stylesheet">
+
+</head>
+<body>
+
+  <!-- /* HEADER */ -->
+
+  <header class="header">
+    <div class="wrapper">
+      <div class="header-content">
+        <img src="./assets/images/logo.png" alt="Logo del proyecto">
+        <nav class="menu">
+          <ul>
+            <li>
+              <a class="is-active" href="#main">Hola</a>
+            </li>
+          </ul>
+          <ul>
+            <li>
+              <a href="#project">Proyectos</a>
+            </li>
+          </ul>
+          <ul>
+            <li>
+              <a href="#contact">Hablemos</a>
+            </li>
+          </ul>
+        </nav>
+        <button class="button">Currículum</button>
+      </div>
+    </div>
+  </header>
+
+  <div class="wrapper">
+
+    <!-- /* HERO SECTION */ -->
+
+    <section class="hero" id="main">
+      <div class="hero-image">
+        <picture>
+          <source media="(min-width:1300px)" srcset="./assets/images/jaume2x.png" />
+          <img src="./assets/images/jaume1x.png" width="338" height="330" alt="Foto de Jaume">
+        </picture>
+      </div>
+      <div class="hero-description">
+        <h1>
+          <span>¡Hola a todos!</span>
+          <span>Soy Jaume</span>
+        </h1>
+        <p>Frontend Developer que le encanta implementar diseños que inspiran y atraen a las personas.</p>
+        <div class="social">
+          <a class="button-icon" href="tel:666666666"><img src="./assets/icons/icon-phone.svg"></a>
+          <a class="button-icon" href="#"><img src="./assets/icons/icon-twitter_squared.svg"></a>
+          <a class="button-icon" href="#"><img src="./assets/icons/icon-instagram.svg"></a>
+          <a class="button-icon" href="#"><img src="./assets/icons/icon-important_mail.svg"></a>
+        </div>
+        <a href="#" class="button cv-btn">Descargar Currículum</a>
+      </div>
+    </section>
+
+    <!-- /* INTRODUCTION SECTION */ -->
+
+    <section class="text-section">
+      <div class="text-section__container">
+        <p>A lo largo de mi carrera como Frontend, he tenido el privilegio de trabajar en proyectos retadores e increíbles</p>
+        <h5>Aquí hay algunos que me gustaría compartir.</h5>
+        <img src="./assets/images/arrow-down.png" alt="Una flecha que apunta hacia abajo">
+      </div>
+    </section>
+
+    <!-- /* LEONIDAS WEB PROJECT */ -->
+
+    <section class="project-section" id="project">
+      <div class="project-section__container">
+        <picture>
+          <source media="(min-width:1300px)" srcset="./assets/images/mac-iphone-img-larger.png" />
+          <img src="./assets/images/mac-iphone-img.png" alt="Una imagen de un iphone y un portátil Mac">
+        </picture>
+        <div class="project-section__data-container">
+          <h5>leonidasesteban.com</h5>
+          <p>Accede a más de 120 proyectos que te ayudarán a mejorar
+          tus habilidades como desarrollador Front-End.</p>
+          <div class="project-section__btn-container">
+            <a href="#" class="button is-secondary">Ver código</a>
+            <a href="#" class="button">Ver proyecto</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- /* LEONIDAS CARD */ -->
+
+    <section class="comment-section">
+      <div class="comment-card first-card">
+        <img src="./assets/images/leonidas-user.png" alt="Fotografía de Leonidas Esteban">
+        <p>"Jaume ha sido de gran ayuda para acelerar ciertos esfuerzos de desarrollo. Lo que nos hubiera llevado 6 meses solo les
+        llevó 1,5 meses ".</p>
+        <span>LEONIDAS ESTEBAN / COFUNDADOR Y CEO LEONIDASESTEBAN.COM</span>
+      </div>
+    </section>
+
+    <!-- /* MARVOL PROJECT */ -->
+
+    <section class="project-section">
+      <div class="project-section__container ipad-container">
+        <picture class="ipad-img">
+          <source media="(min-width:1300px)" srcset="./assets/images/ipad-larger.png" />
+          <img src="./assets/images/ipad.png" alt="Imagen del proyecto Marvol en un Ipad">
+        </picture>
+          <div class="project-section__data-container">
+            <h5>MARVOL</h5>
+            <p>Es el sitio oficial de Marvol Entertainment. Explore películas, personajes, cómics, programas de televisión, videos y
+            más oficiales de Marvol.</p>
+            <div class="project-section__btn-container">
+              <a href="#" class="button is-secondary">Ver código</a>
+              <a href="#" class="button">Ver proyecto</a>
+            </div>
+          </div>
+      </div>
+    </section>
+
+    <!-- /* MARVOL CARD */ -->
+
+    <section class="comment-section">
+      <div class="comment-card">
+        <img src="./assets/images/marvol-user.png" alt="Fotografía del CEO de Marvol">
+        <p>"Jaume ha superado mis expectativas desde el diseño hasta el desarrollo".</p>
+        <span class="marvol-text">JASON LOPEZ / COFUNDADOR Y CEO MARVOL</span>
+      </div>
+    </section>
+
+    <!-- /* NETNET PROJECT */ -->
+
+    <section class="project-section">
+      <div class="project-section__container">
+        <img src="./assets/images/netnet.png" alt="Imagen del proyecto Netnet">
+        <div class="project-section__data-container">
+          <h5>NETNET</h5>
+          <p>Películas y series ilimitadas y mucho más.
+          Disfruta donde quieras. Cancela cuando quieras.</p>
+          <div class="project-section__btn-container">
+            <a href="#" class="button is-secondary">Ver código</a>
+            <a href="#" class="button">Ver proyecto</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- /* NETNET CARD */ -->
+
+    <section class="comment-section">
+      <div class="comment-card">
+        <img src="./assets/images/netnet-user.png" alt="Fotografía del CEO de Netnet">
+        <p>"Por primera vez en la historia de nuestra empresa, aparecimos en todas las plataformas en las que trabajamos".</p>
+        <span class="netnet-text">MARCO CORTEZ / NETNET</span>
+      </div>
+    </section>
+
+    <!-- /* CONTACT SECTION */ -->
+
+    <section class="contact-section">
+      <div class="contact-section__container">
+        <h5>HABLEMOS</h5>
+        <p>Si está interesado en trabajar conmigo en su próximo proyecto,
+        no dude en ponerse en contacto conmigo.</p>
+      </div>
+
+      <!-- /* FORM */ -->
+
+      <form action="#" class="form" method="GET">
+        <label for="form-name">
+          <span class="span">Nombre completo</span>
+          <input name="name" id="form-name" type="text" placeholder="Juan" required>
+        </label>
+        <label for="form-email">
+          <span class="span">Correo electrónico</span>
+          <input name="email" type="form-email" placeholder="Juan@gmail.com" required>
+        </label>
+        <label for="textarea">
+          <span>Mensaje</span>
+          <textarea name="message" id="form-message"></textarea>
+        </label>
+        <input type="submit" value="Enviar Mensaje">
+      </form>
+    </section>
+
+    <!-- /* FOOTER */ -->
+
+    <footer class="footer" id="contact">
+      <div class="footer-container">
+        <div class="footer-logo">
+          <img src="./assets/images/white-logo.png" alt="Logo de Jaume">
+        </div>
+        <div class="social">
+          <a class="button-icon" href="tel:666666666"><img src="./assets/icons/icon-phone.svg"></a>
+          <a class="button-icon" href="#"><img src="./assets/icons/icon-twitter_squared.svg"></a>
+          <a class="button-icon" href="#"><img src="./assets/icons/icon-instagram.svg"></a>
+          <a class="button-icon" href="#"><img src="./assets/icons/icon-important_mail.svg"></a>
+        </div>
+        <div class="footer-copyright">
+          <p>Made with 💜 by Tiken.</p>
+          <p>Copyright 2021 - Todos los derechos reservados.</p>
+        </div>
+      </div>
+    </footer>
+  </div>
+</body>
+</html>

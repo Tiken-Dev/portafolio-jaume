@@ -1,0 +1,43 @@
+.text-section {
+  font: var(--text-text);
+  max-inline-size: 900px;
+}
+
+.text-section p {
+  margin-block-end: 24px;
+  font-size: 24px;
+  line-height: 39px;
+}
+
+.text-section h5 {
+  margin-block-start: 0;
+  margin-block-end: 24px;
+  font-size: 24px;
+}
+
+.text-section__container {
+  margin-block-start: 54px;
+  margin-block-end: 80px;
+  text-align: center;
+}
+
+.text-section__container img {
+  display: block;
+  margin: auto;
+  margin-block-end: 80px;
+}
+
+@media screen and (min-width: 768px) {
+  .text-section {
+    margin: auto;
+    padding-block-start: 256px;
+    padding-block-end: 200px;
+  }
+
+  .text-section p {
+    font-family: 'Oxygen', sans-serif;
+    font-size: 34px;
+    line-height: 55px;
+    font-weight: 300;
+  }
+}
